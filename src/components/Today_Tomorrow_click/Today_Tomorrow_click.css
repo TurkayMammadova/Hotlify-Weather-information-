@@ -1,0 +1,50 @@
+.change_day{
+  display: flex;
+  margin-top: 33px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.change_day div{
+color: #D9D9D9;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 112.5% */
+letter-spacing: 1.25px;
+text-transform: uppercase;
+margin-left: 31px;
+}
+.today:hover{
+  color: green;
+}
+.tomorrow:hover{
+  color: green;
+}
+
+.today:after{
+  content: "";
+  width: 9rem;
+  height: 1px;
+  position: absolute;
+  background: white;
+  top: 33px;
+  transform: translateX(-130px);
+}
+
+
+
+.tomorrow:after{
+  content: "";
+  width: 14rem;
+  height: 1px;
+  position: absolute;
+  background: white;
+  top: 33px;
+  transform: translateX(-220px);
+}
+

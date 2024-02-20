@@ -1,0 +1,16 @@
+.tempUnit{
+  width: 40px;
+  height: 24px;
+  margin-left: 74px;
+}
+
+.tempUnit label{
+border-radius: 14px;
+background: #3D6E35;
+}
+
+.form-check{
+  margin-left: 80px;
+  color: white;
+}
+

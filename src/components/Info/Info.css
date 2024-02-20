@@ -1,0 +1,129 @@
+.info{
+width: 817px;
+height: 425px;
+margin: 53px auto;
+border-radius: 32px;
+background: linear-gradient(113deg, #AD36CB 32.23%, #333 67.37%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(255, 250, 250, 0.25), 0px 4px 4px 0px rgba(253, 245, 245, 0.25);
+}
+
+.info-top{
+margin:auto 28px;
+display: flex;
+justify-content: space-between;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.info-top h3{
+  margin-top: 35px;
+
+  
+}
+.info-top div{
+  position: relative;
+  padding-right:35px;
+}
+.location{
+  position:absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  right: 0;
+  
+}
+
+.cloud,.temperature{
+  position:absolute;
+ 
+}
+.cloud{
+  top: 40%;
+  transform: translateY(-50%);
+  left: 130px;
+
+}
+.degree-info{
+position: relative;
+display:flex;
+justify-content: center;
+margin:110px 310px auto 310px;
+
+}
+
+.degree-info h2{
+width: 184px;
+height: 130px;
+flex-shrink: 0;
+color: #F2F1F1;
+font-family: Poppins;
+font-size: 70px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+left: 0px;
+}
+
+.temperature{
+  top: 40%;
+  transform: translateY(-50%);
+  right:210px;
+  color: #F2F1F1;
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.info-buttom{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 58px;
+}
+.info-buttom div{
+/* width: 295px; */
+height: 36px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.dateInfo{
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+margin-top: 45px;
+}
+
+.deactive{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.no_city{
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+
+
+}
